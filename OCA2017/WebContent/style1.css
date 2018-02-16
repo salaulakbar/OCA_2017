@@ -1,0 +1,137 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: lightblue;
+}
+
+p {
+	color: white;
+	background-color: #003366;
+}
+.upp {
+	margin:73px ;
+	text-align:center;
+	
+}
+
+.head {
+	margin: 150px 40px 0px;
+}
+
+.container {
+	width: 80%;
+    margin: 0 auto;
+	
+}
+
+.left {
+	width: 15%;
+	float: left;
+}
+
+.body {
+	position: relative;
+	margin: 45px 40px 0px;
+	display: block;
+	float: left;
+	padding: -5px;
+}
+
+.right {
+	margin: 30px 50px 0px;
+	width: 15%;
+	font-size: 25px;
+	float: right;
+	color: red;
+	text-decoration: underline;
+	text-decoration-color: red;
+}
+.right1 {
+	margin: 5px 0px -30px;
+	text-decoration: non;
+	width: 135%;
+	font-size: 15px;
+	float: center;
+	color: black;
+}
+.cent {
+	position: relative;
+	text-align: center;
+	color: black;
+	/*background-color: green;*/
+}
+.leftt {
+	text-align: left;
+	font-size: 22px;
+	margin: -3em 18em 0px;
+}
+
+.button {
+	background-color:rgb(126, 148, 254);
+	border-radius: 13px;
+	color: white;
+	padding: 13px 22px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin: -12px -2px 0px;
+	cursor: pointer;
+	box-shadow: 0 7px #999
+}
+
+.button:hover {
+	background-color: orange;
+	color: white;
+}
+
+h1 {
+	color: white;
+	background-color: #003366;
+}
+
+h2 {
+	text-align: center;
+	color: #003366;
+	text-decoration: underline;
+	text-decoration-color: #003366;
+}
+.button22 {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: grey;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 18px;
+	padding: -7px;
+	width: 100px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 8px 5px 0px;
+}
+
+.button22 span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.button22 span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.button22:hover span {
+	padding-right: 12px;
+}
+
+.button22:hover span:after {
+	opacity: 1;
+	right: 0;
+}
